@@ -1,19 +1,26 @@
 # Rock Paper Scissors (JavaScript)
 
-This project is a simple implementation of the Rock Paper Scissors game in JavaScript.
+A simple browser-based Rock Paper Scissors game.
 
-## Current Features
-- Function to get a random computer choice: `rock`, `paper`, or `scissors`.
-- Function to prompt the user for their choice.
+## Features
+- Play 5 rounds against the computer.
+- Input validation for user choices.
+- Score tracking for both player and computer.
+- Displays round results and final winner in the browser console.
 
-## How to Use
-- Run the JavaScript code in a browser environment.
-- The computer will randomly select its move.
-- You will be prompted to enter your choice.
+## How to Play
+1. Open `index.html` in your web browser.
+2. When prompted, type your choice: `rock`, `paper`, or `scissors` (case-sensitive, lowercase).
+3. The computer will randomly select its move.
+4. After 5 rounds, the final result will be shown in the console.
 
 ## Files
-- `game.js`: Contains the game logic so far.
+- `index.html`: Loads the game in your browser.
+- `game.js`: Contains all game logic and runs automatically when the page loads.
+
+## Notes
+- All interaction is via browser prompts and the console.
+- To play again, refresh the page.
 
 ---
-
-More features can be added, such as determining the winner and a user interface.
+Feel free to extend the game with a graphical interface or more features!
